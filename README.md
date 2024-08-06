@@ -29,10 +29,30 @@ Para executar os testes automatizados, os seguintes requisitos devem ser atendid
 
 2. Crie e ative um ambiente virtual (recomendado):
 
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # No Windows, use: venv\Scripts\activate
-  
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # No Windows, use: venv\Scripts\activate
 
-Esta estrutura de README visa garantir que qualquer desenvolvedor ou testador possa rapidamente entender, configurar e executar os testes automatizados descritos no script.
+3. Instale as dependências do projeto:
+
+    ```bash 
+    pip install -r requirements.txt
+
+##Descrição do Script de Teste
+
+O script de teste (test_cadastro.py) realiza as seguintes operações:
+
+ - Inicialização: Configura o Selenium WebDriver, abre o navegador e navega até a página de cadastro do site alvo.
+ - Execução dos Testes: Lê os dados de teste a partir do arquivo testes_cadastro.csv e preenche o formulário de cadastro para cada conjunto de dados. Verifica se o cadastro foi realizado com sucesso.
+ - Finalização: Fecha o navegador e gera um relatório de resultados com logs detalhados.
+
+##Logs
+
+O sistema de logs captura informações detalhadas sobre cada passo do teste, incluindo:
+
+  - Informações de Execução: Hora de início, tempo de execução e status final de cada teste.
+  - Erros e Exceções: Mensagens de erro detalhadas caso algum teste falhe, auxiliando na identificação de problemas.
+  - Logs de Debug: Informações adicionais úteis para desenvolvedores durante o processo de desenvolvimento e teste.
+
+Os logs são gravados em um arquivo de log especificado no script, permitindo fácil acesso e análise posterior.
 
