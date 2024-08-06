@@ -29,12 +29,9 @@ Para executar os testes automatizados, os seguintes requisitos devem ser atendid
 
 2. Crie e ative um ambiente virtual (recomendado):
 
+  ```bash
   python -m venv venv
   source venv/bin/activate  # No Windows, use: venv\Scripts\activate
-
-3. Instale as dependências do projeto:
-
-  pip install -r requirements.txt
   
 
 Esta estrutura de README visa garantir que qualquer desenvolvedor ou testador possa rapidamente entender, configurar e executar os testes automatizados descritos no script.
