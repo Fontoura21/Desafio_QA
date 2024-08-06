@@ -2,7 +2,7 @@
 
 Este repositório contém um script de teste automatizado para verificar a funcionalidade de cadastro de usuários em um site específico. O script utiliza o Selenium WebDriver para interagir com o navegador e realizar testes funcionais. 
 
-##Estrutura do Projeto
+## Estrutura do Projeto
 
 O projeto está estruturado da seguinte forma:
 
