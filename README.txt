@@ -25,7 +25,7 @@ Para executar os testes automatizados, os seguintes requisitos devem ser atendid
 1. Clone o repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone git@github.com:Fontoura21/Desafio_QA.git
 
 
 
