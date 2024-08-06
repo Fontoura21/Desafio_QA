@@ -1,4 +1,4 @@
-#Teste Automatizado de Cadastro de Usuário
+# Teste Automatizado de Cadastro de Usuário
 
 Este repositório contém um script de teste automatizado para verificar a funcionalidade de cadastro de usuários em um site específico. O script utiliza o Selenium WebDriver para interagir com o navegador e realizar testes funcionais. 
 
@@ -9,7 +9,7 @@ O projeto está estruturado da seguinte forma:
 - `tests/`: Diretório que contém o script de teste.
 - `tests/site/testes_cadastro.csv`: Arquivo CSV contendo os dados de teste utilizados para o cadastro.
 
-##Requisitos
+## Requisitos
 
 Para executar os testes automatizados, os seguintes requisitos devem ser atendidos:
 
@@ -20,7 +20,7 @@ Para executar os testes automatizados, os seguintes requisitos devem ser atendid
   - `numpy`
   - `logging`
 
-##Instalação
+## Instalação
 
 1. Clone o repositório para sua máquina local:
 
@@ -38,7 +38,7 @@ Para executar os testes automatizados, os seguintes requisitos devem ser atendid
     ```bash 
     pip install -r requirements.txt
 
-##Descrição do Script de Teste
+## Descrição do Script de Teste
 
 O script de teste (test_cadastro.py) realiza as seguintes operações:
 
@@ -46,7 +46,7 @@ O script de teste (test_cadastro.py) realiza as seguintes operações:
  - Execução dos Testes: Lê os dados de teste a partir do arquivo testes_cadastro.csv e preenche o formulário de cadastro para cada conjunto de dados. Verifica se o cadastro foi realizado com sucesso.
  - Finalização: Fecha o navegador e gera um relatório de resultados com logs detalhados.
 
-##Logs
+## Logs
 
 O sistema de logs captura informações detalhadas sobre cada passo do teste, incluindo:
 
